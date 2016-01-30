@@ -1,0 +1,18 @@
+html, body {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    padding: 10px;
+    /*border: 5px solid #f5ead9;*/
+}
+
+.bg-blue {
+    background: url(http://i.imgur.com/A2rqm.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
