@@ -3,7 +3,7 @@ angular.module('App')
   var directions = ['N', 'NE', 'E', 'SE', 'S', 'SW', 'W', 'NW'];
 
   $ionicLoading.show();
-  $http.get('http://api.openweathermap.org/data/2.5/weather?q=Kathmandu,Nepal&appid=44db6a862fba0b067b1930da0d769e98').success(function (weather) {
+  $http.get('https://ionic-in-action-api.herokuapp.com/weather').success(function (weather) {
     $scope.weather = weather;
     $ionicLoading.hide();
   }).error(function (err) {
